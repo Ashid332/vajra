@@ -9,6 +9,7 @@ import Certifications from './pages/Certifications'
 import Products from './pages/Products'
 import Projects from './pages/Projects'
 import Contact from './pages/Contact'
+import Team from './pages/Team'
 
 function ScrollToTop() {
   const { pathname } = useLocation()
@@ -49,6 +50,7 @@ export default function App() {
             <Route path="/products" element={<Products />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/team" element={<Team />} />
           </Routes>
         </main>
         <Footer />
