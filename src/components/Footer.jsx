@@ -16,7 +16,7 @@ export default function Footer() {
             </div>
             <p className="footer-tagline">"Powering a Greener Future Together"</p>
             <div className="footer-social">
-              <a href="#" aria-label="LinkedIn"><i className="fab fa-linkedin-in"></i></a>
+              <a href="https://www.linkedin.com/company/arul-group-/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i className="fab fa-linkedin-in"></i></a>
               <a href="#" aria-label="Facebook"><i className="fab fa-facebook-f"></i></a>
               <a href="#" aria-label="Instagram"><i className="fab fa-instagram"></i></a>
               <a href="#" aria-label="YouTube"><i className="fab fa-youtube"></i></a>
